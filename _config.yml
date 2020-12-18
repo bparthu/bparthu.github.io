@@ -4,7 +4,7 @@
 
 version: 0.0.0
 # Name of your site (displayed in the header)
-name: &lt;parthu.dev&gt;
+name: <parthu.dev>
 
 # Name of the author
 author: Parthasarathy Bakthavatsalam
