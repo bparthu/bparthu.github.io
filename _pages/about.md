@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-this is test update
+this is test update1
 
 This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
 
