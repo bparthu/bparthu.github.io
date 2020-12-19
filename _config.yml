@@ -2,7 +2,7 @@
 # This file contains configuration flags to customize your site
 #
 
-version: 0.0.0
+version: 0.0.1
 # Name of your site (displayed in the header)
 name: parthu.dev
 
