@@ -15,7 +15,7 @@ jobs:
         bundler-cache: true
     - name: Jekyl build
       run: |
-        bundle exec jekyll serve
+        bundle exec jekyll build
     - name: push to gh-pages branch
       uses: s0/git-publish-subdir-action@develop
       env:
