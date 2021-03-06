@@ -1,27 +1,18 @@
-# This is a basic workflow to help you get started with Actions
-
 name: publish-blog
-
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    name: Publish Blog
+  publish:
+    name: publish
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - name: Generate static build
-        uses: ruby/setup-ruby@v1
-        - run: |
-            bundle
-            jekyll build
-            ls
+    - uses: actions/checkout@v2
+    - name: Uses Ruby ENV
+      uses: ruby/setup-ruby@v1
+    - name: Jekyl build
+      run: |
+        bundle
+        jekyll build
+        ls
