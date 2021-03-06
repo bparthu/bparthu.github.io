@@ -15,8 +15,7 @@ jobs:
         bundler-cache: true
     - name: Jekyl build
       run: |
-        cd ./vendor/bundle/ruby/2.4.0
-        ls -lR
+        ./vendor/bundle/ruby/2.4.0/bin/jekyll build
     - name: push to gh-pages branch
       uses: s0/git-publish-subdir-action@develop
       env:
