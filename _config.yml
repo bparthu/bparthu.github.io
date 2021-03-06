@@ -88,7 +88,7 @@ plugins:
 
 include: ['_pages']
 
-paginate: 1
+paginate: 2
 paginate_path: /page:num/
 
 # Exclude these files from your production _site
@@ -97,5 +97,4 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - CNAME
 
