@@ -11,8 +11,6 @@ jobs:
     - uses: actions/checkout@v2
     - name: Uses Ruby ENV
       uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
     - name: Jekyl build
       run: |
         bundle
