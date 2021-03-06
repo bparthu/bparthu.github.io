@@ -2,6 +2,14 @@
   
     {
 
+      "title"    : "How am i running a cloud native / developer friendly blog ?",
+      "url"      : "/2021/03/06/about-my-blog.html",
+      "category" : "experiment",
+      "date"     : "March  6, 2021"
+    } ,
+  
+    {
+
       "title"    : "Pullquotes",
       "url"      : "/2019/12/11/pullquotes.html",
       "category" : "HTML, Code",
