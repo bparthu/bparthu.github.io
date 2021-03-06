@@ -23,5 +23,5 @@ jobs:
         with:
           bundler-cache: true
       - run: |
-          bundle
-          echo "Success"
+          jgd
+          echo "Published Successfully"
