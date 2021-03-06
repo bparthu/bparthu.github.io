@@ -17,9 +17,7 @@ jobs:
       run: |
         bundle
         bundle info jekyll
-        cd /opt/hostedtoolcache/Ruby/2.4.3/x64/bin
-        ls
-        printenv
+        /home/runner/work/bparthu.github.io/bparthu.github.io/vendor/bundle/ruby/2.4.0/gems/jekyll-3.9.0/exe/jekyll build
     - name: push to gh-pages branch
       uses: s0/git-publish-subdir-action@develop
       env:
