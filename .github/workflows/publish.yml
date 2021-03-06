@@ -12,19 +12,16 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    # The type of runner that the job will run on
+    name: Publish Blog
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-        with:
-          token: ${{secrets.PAT}}
-      - uses: ruby/setup-ruby@v1
-      - run: |
-          git config --global user.email "b.paarthu@gmail.com"
-          git config --global user.name "Parthasarathy Bakthavatsalam"
-          bundle
-          jgd
-          echo "Published Successfully"
+      - name: Generate static build
+        uses: ruby/setup-ruby@v1
+        - run: |
+            bundle
+            jekyll build
+            ls
