@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.4.3'
+gem "RubyGems", "2.7.0"
 gem "jekyll", "4.0"
 gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-feed", "~> 0.15.1"
