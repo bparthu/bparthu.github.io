@@ -16,6 +16,7 @@ jobs:
     - name: Jekyl build
       run: |
         ls
+        printenv
         jekyll build
     - name: push to gh-pages branch
       uses: s0/git-publish-subdir-action@develop
