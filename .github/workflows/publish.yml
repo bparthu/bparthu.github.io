@@ -15,11 +15,7 @@ jobs:
         bundler-cache: true
     - name: Jekyl build
       run: |
-        bundle
-        bundle info jekyll
-        export PATH=$PATH:/home/runner/work/bparthu.github.io/bparthu.github.io/vendor/bundle/ruby/2.4.0/bin
-        echo $PATH
-        jekyll build
+        bundle exec jekyll serve
     - name: push to gh-pages branch
       uses: s0/git-publish-subdir-action@develop
       env:
