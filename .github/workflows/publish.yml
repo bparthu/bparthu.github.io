@@ -15,8 +15,10 @@ jobs:
         bundler-cache: true
     - name: Jekyl build
       run: |
+        cd vendor
         ls
-        printenv
+        cd /opt/hostedtoolcache/Ruby/2.4.3/x64/bin
+        ls
         jekyll build
     - name: push to gh-pages branch
       uses: s0/git-publish-subdir-action@develop
