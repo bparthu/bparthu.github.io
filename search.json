@@ -3,7 +3,7 @@
     {
 
       "title"    : "Pullquotes",
-      "url"      : "//2019/12/11/pullquotes.html",
+      "url"      : "/2019/12/11/pullquotes.html",
       "category" : "HTML, Code",
       "date"     : "December 11, 2019"
     } ,
@@ -11,7 +11,7 @@
     {
 
       "title"    : "Code snippets in a blog post",
-      "url"      : "//2019/08/12/code-snippets.html",
+      "url"      : "/2019/08/12/code-snippets.html",
       "category" : "HTML, Code",
       "date"     : "August 12, 2019"
     } ,
@@ -19,7 +19,7 @@
     {
 
       "title"    : "Sometimes, your post just stands for itself and doesn’t need a title. And that’s fine, too!",
-      "url"      : "//2019/08/08/no-title-posts.html",
+      "url"      : "/2019/08/08/no-title-posts.html",
       "category" : "Miscellaneous",
       "date"     : "August  8, 2019"
     } ,
@@ -27,7 +27,7 @@
     {
 
       "title"    : "Some articles are just so short that we&#39;ve to make the footer stick",
-      "url"      : "//2019/07/28/super-short-article.html",
+      "url"      : "/2019/07/28/super-short-article.html",
       "category" : "Miscellaneous",
       "date"     : "July 28, 2019"
     } ,
@@ -35,7 +35,7 @@
     {
 
       "title"    : "This post demonstrates post content styles",
-      "url"      : "//2019/07/27/this-post-demonstrates-post-content-styles.html",
+      "url"      : "/2019/07/27/this-post-demonstrates-post-content-styles.html",
       "category" : "Miscellaneous",
       "date"     : "July 27, 2019"
     } ,
@@ -43,7 +43,7 @@
     {
 
       "title"    : "Some articles are just so long they deserve a really long title to see if things will break well",
-      "url"      : "//2019/07/27/super-long-article.html",
+      "url"      : "/2019/07/27/super-long-article.html",
       "category" : "Miscellaneous",
       "date"     : "July 27, 2019"
     } ,
@@ -51,7 +51,7 @@
     {
 
       "title"    : "Introducing Reverie - A ridiculously elegant Jekyll theme",
-      "url"      : "//2019/02/13/introducing-reverie-jekyll-theme.html",
+      "url"      : "/2019/02/13/introducing-reverie-jekyll-theme.html",
       "category" : "Miscellaneous, Jekyll",
       "date"     : "February 13, 2019"
     } 
