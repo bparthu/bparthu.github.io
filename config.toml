@@ -45,14 +45,14 @@ paginate = 20
   url = "https://medium.com/@b.paarthu"
   target = "_blank"
 [[params.social]]
-  name = "StackShare"
-  icon = "fa fa-share-nodes fa-2x"
-  weight = 4
-  url = "https://stackshare.io/bparthu/mystack"
-  target = "_blank"
-[[params.social]]
   name = "Resume"
   icon = "fa fa-id-badge fa-2x"
-  weight = 5
+  weight = 4
   url = "https://resume.io/r/4mgqgNB0z"
+  target = "_blank"
+[[params.social]]
+  name = "StackShare"
+  icon = "fa fa-share fa-2x"
+  weight = 5
+  url = "https://stackshare.io/bparthu/mystack"
   target = "_blank"
