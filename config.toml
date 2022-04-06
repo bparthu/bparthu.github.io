@@ -9,7 +9,7 @@ paginate = 20
 
 [params]
   author = "Parthasarathy Bakthavatsalam"
-  info = "Sr. Full Stack | Cloud Native | DevOps"
+  info = "Sr. Full Stack | Cloud Native Enthusiast | DevOps"
   description = "Parthasarathy's personal website"
   keywords = "blog,developer,personal"
   avatarurl = "/images/avatar.jpg"
